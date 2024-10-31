@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>推しの海洋生物を見つけよう！</title>
+    <link rel="stylesheet" href="./CSS/test.css">
+</head>
+
+<body>
+    <h1>推しの海洋生物を見つけよう！</h1>
+    <p>質問に答えて、あなたにマッチする海の生物に出会おう！</p>
+    <hr>
+
+    <div id="main">
+
+        <div id="question_area">
+            <div id="q1" class="txt_display">とにかく大きくて迫力のあるのが好き！ </div>
+            <div id="q2" class="txt_hide">レアなものに惹かれる</div>
+            <div id="q3" class="txt_hide">キモ可愛いのが好き</div>
+        </div>
+
+        <div id="result_area" class="txt_hide">
+            <p>あなたにピッタリの海洋生物は・・・！</p>
+            <div id="a1" class="txt_hide">
+                <h2>ジンベエザメ</h2>
+                <img src="./images/jinbeezame.webp" alt="">
+                <p>すべての魚類の中で現生最大の種。</p>
+                <p>水族館や生け簀で飼われているジンベエザメには簡単にあえますが、</p>
+                <p>野生のジンベエに会うのは世界でも限られたポイントのみ。</p>
+                <p>あなたがもし幸運にも、海で悠々と泳ぐ野生のジンベエに会ったなら、</p>
+                <p>きっとその感動を一生忘れることはないでしょう。</p>
+            </div>
+
+            <div id="a2" class="txt_hide">
+                <h2>マンタ</h2>
+                <img src="./images/manta.webp" alt="">
+                <p>海の中をまるで飛ぶように優雅に泳ぐマンタ。</p>
+                <p>大きいものになるとレア度が増しますが、</p>
+                <p>比較的世界中のポイントで会うことができます。</p>
+                <p>中でも全身ブラックのブラックマンタのかっこよさと言ったら！</p>
+            </div>
+
+            <div id="a3" class="txt_hide">
+                <h2>カエルアンコウ</h2>
+                <img src="./images/kaeruankou.webp" alt="">
+                <p>受け口のなんともいえない表情がキモ可愛いカエルアンコウ。</p>
+                <p>オレンジの派手な個体から真っ黒な個体まで、</p>
+                <p>カラーリングも、サイズ感も様々です。</p>
+                <p>普段は岩の上にぴったりくっついていますが、</p>
+                <p>時々ひらひらと泳いでいる姿を見れることも！</p>
+                <p>水中カメラガチ勢の影のアイドル。</p>
+            </div>
+
+            <div id="a4" class="txt_hide">
+                <h2>カクレクマノミ</h2>
+                <img src="./images/nimo.webp" alt="">
+                <p>みんな大好き、海のアイドル、ニモ。</p>
+                <p>本名はカクレクマノミと言って、クマノミの仲間です。</p>
+                <p>クマノミにはいろいろな種類がいますが、</p>
+                <p>カクレクマノミは、体に白い線が三本あります。</p>
+                <p>一本線だったら、ハマクマノミ。</p>
+                <p>二本線だったら、クマノミ。</p>
+                <p>三本線だったら、カクレクマノミ。</p>
+                <p>覚え方は、「イチハマ、ニクマ、サンカクレ」</p>
+            </div>
+
+        </div>
+
+        <a href="javaScript:OnAgainClick();" id="try_again" class="txt_hide">Try Again></a>
+
+        <div id="btn_area" class="txt_display">
+            <a href="javascript:OnYesClick();" id="btn_yes">Yes></a>
+            <a href="javascript:OnNoClick();" id="btn_no">No></a>
+        </div>
+
+    </div>
+
+    <script src="./js/test.js"></script>
+</body>
+
+</html>
